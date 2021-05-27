@@ -1154,7 +1154,7 @@ origin
 
 ## 2.6 태그
 
-*특정 release 버전에 대한 포인터를 제공하기 위함*
+*특정 release 버전에 대한 포인터를 제공하기 위함[^1]*
 
 다른 VCS처럼 Git도 태그를 지원한다. 사람들은 보통 릴리즈할 때 사용한다(v1.0, 등등). 이번에는 태그를 조회하고 생성하는 법과 태그의 종류를 설명한다.
 
@@ -1450,3 +1450,8 @@ $ git config --global alias.visual '!gitk'
 
 - [Git Tag 꼭 써야할까?](https://programmingsummaries.tistory.com/395)
 
+
+
+## 각주
+
+- [^1]: 태그를 쓰는 이유가 궁금하다면 위의 [Git Tag 꼭 써야할까?](https://programmingsummaries.tistory.com/395) 참고
