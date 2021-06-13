@@ -22,7 +22,7 @@ stage area(git add된 file들)에 있는 파일을 unstage할 수 있다.
 
 위 그림처럼 명령어는 ==git reset HEAD <file>== 이다.
 
-근데 위 그림에서 보면 git restore --staged  <file>로도 unstage할 수 있나보다. 한번 해보겠다.
+근데 위 그림에서 보면 ==git restore --staged  <file>==로도 unstage할 수 있나보다. 한번 해보겠다.
 
 ![image-20210613225444504](https://raw.githubusercontent.com/donghyeok-shin/image_server/main/img/image-20210613225444504.png)
 
@@ -30,3 +30,12 @@ stage area(git add된 file들)에 있는 파일을 unstage할 수 있다.
 
 
 
+### Modified 파일 되돌리기
+
+Modified상태의 file을 최신 commit의 file상태로 되돌리는 명령어는 ==git checkout -- <file>==이다. 아래는 실행 결과이다.
+
+![image-20210613230533041](https://raw.githubusercontent.com/donghyeok-shin/image_server/main/img/image-20210613230533041.png)
+
+근데 위 그림에서 알 수 있듯이 ==git restore <file>==로도 수정사항을 버릴 수 있나보다. **파일 상태를 Unstage로 변경하기** 쳅터와 다른 부분은 --staged 옵션이 없다는 것이다.
+
+![image-20210613230843000](https://raw.githubusercontent.com/donghyeok-shin/image_server/main/img/image-20210613230843000.png)
