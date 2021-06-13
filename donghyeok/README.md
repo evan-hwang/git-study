@@ -20,11 +20,13 @@ stage area(git add된 file들)에 있는 파일을 unstage할 수 있다.
 
 ![image-20210613225213709](https://raw.githubusercontent.com/donghyeok-shin/image_server/main/img/image-20210613225213709.png)
 
-위 그림처럼 명령어는 ==git reset HEAD <file>== 입니다.
+위 그림처럼 명령어는 ==git reset HEAD <file>== 이다.
 
-근데 위 그림에서 보면 git restore --staged  <file>로도 unstage할 수 있나봅니다. 한번 해보겠습니다.
+근데 위 그림에서 보면 git restore --staged  <file>로도 unstage할 수 있나보다. 한번 해보겠다.
 
 ![image-20210613225444504](https://raw.githubusercontent.com/donghyeok-shin/image_server/main/img/image-20210613225444504.png)
 
-결과는 같습니다.
+결과는 같다.
+
+
 
