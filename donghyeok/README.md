@@ -189,3 +189,24 @@ To git@github.com:schacon/simplegit.git
 git checkout <태그 이름>이며 태그를 checkout했을 때는 "detached HEAD" 상태가 됨. 브랜치 동작 checkout 동작과 다름.
 
 버그 픽스 등 코드 수정은 브랜치를 만들어서 작업하는 것이 좋음.
+
+
+
+### Git Alias
+
+git config를 이용하여 명령어를 간단하게 사용하는 방법임.
+
+~/.gitconfig 파일을 수정하여 [alias] 부분을 삽입했음. 
+
+```
+[user]
+        email = dhyeok1027@gmail.com
+        name = donghyeok-shin
+[alias]
+        co = checkout
+        st = status
+        ci = commit
+        br = branch
+        unstage = reset HEAD --
+```
+
