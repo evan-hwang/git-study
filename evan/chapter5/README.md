@@ -1321,7 +1321,7 @@ v1.6.2-rc1-20-g8c5b85c
 
 ### 릴리즈 준비하기
 
-배포할 릴리즈 버전이 준비되었다. 먼저 Git을 사용하지 않는 사람을 위해 소스코드 스냅샷을 압축한다. 쉽게 압축할 수 있도록 Git은 `git archive` 명령을 지원한다.
+배포할 릴리즈 버전이 준비되었다. 먼저 **Git을 사용하지 않는 사람을 위해 소스코드 스냅샷을 압축**한다. 쉽게 압축할 수 있도록 Git은 `git archive` 명령을 지원한다.
 
 ```sh
 $ git archive master --prefix='project/' | gzip > `git describe master`.tar.gz
@@ -1329,7 +1329,9 @@ $ ls *.tar.gz
 v1.6.2-rc1-20-g8c5b85c.tar.gz
 ```
 
-이 압축 파일을 풀면 프로젝트의 가장 마지막 스냅샷이 나온다. ZIP 형식으로 압축 파일을 만들려면 `--format=zip` 옵션을 사용한다.
+
+
+이 압축 파일을 풀면 **프로젝트의 가장 마지막 스냅샷이 나온다.** ZIP 형식으로 압축 파일을 만들려면 `--format=zip` 옵션을 사용한다.
 
 ```sh
 $ git archive master --prefix='project/' --format=zip > `git describe master`.zip
