@@ -7,7 +7,7 @@
 - Study type: 실습 후 
 - Study lead: evan
 - Study start date: 2021-04-25
-- Study end date: **-**
+- Study end date: 2021-05-15
 - Reference Book: [Pro Git](https://git-scm.com/book/ko/v2)
 
 ---
